@@ -18,6 +18,7 @@ repositories {
 
 subprojects {
     apply plugin: 'java'
+    apply plugin: 'groovy'
 
     java {
         toolchain {
@@ -30,11 +31,14 @@ subprojects {
     }
 
     dependencies {
-        testImplementation libs.junit.jupiter
-        testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+        testImplementation(libs.bundles.spock)
+        testRuntimeOnly(libs.junit.platform.launcher)
     }
 
     test {
         useJUnitPlatform()
+        testLogging {
+            events "started", "passed", "skipped", "failed"
+        }
     }
 }

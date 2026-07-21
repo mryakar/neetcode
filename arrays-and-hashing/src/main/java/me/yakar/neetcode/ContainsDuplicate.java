@@ -9,13 +9,14 @@ public class ContainsDuplicate {
     // Time:    O(n)
     // Space:   O(n)
     public boolean hasDuplicate(int[] numbers) {
+        if (numbers == null || numbers.length == 0 || numbers.length == 1) {
+            return false;
+        }
         Set<Integer> set = new HashSet<>();
         for (int number : numbers) {
-            boolean alreadyExists = set.contains(number);
-            if (alreadyExists) {
+            if (!set.add(number)) {
                 return true;
             }
-            set.add(number);
         }
         return false;
     }

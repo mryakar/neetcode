@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/arrays-and-hashing/build/
+/build/

@@ -1,0 +1,3 @@
+rootProject.name = 'neetcode'
+
+include 'arrays-and-hashing'

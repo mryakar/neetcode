@@ -1,4 +1,6 @@
-import me.yakar.neetcode.ContainsDuplicate
+package me.yakar.neetcode
+
+
 import spock.lang.Specification
 import spock.lang.Subject
 

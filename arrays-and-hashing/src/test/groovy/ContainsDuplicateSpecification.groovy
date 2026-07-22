@@ -2,7 +2,7 @@ import me.yakar.neetcode.ContainsDuplicate
 import spock.lang.Specification
 import spock.lang.Subject
 
-class TestContainsDuplicate extends Specification {
+class ContainsDuplicateSpecification extends Specification {
 
     @Subject
     def solution = new ContainsDuplicate()

@@ -17,7 +17,7 @@ class ValidAnagramSpecification extends Specification {
         null   | "str" | false    || "only first parameter are null"
         "str"  | null  | false    || "only second parameter is null"
         null   | null  | false    || "both parameters are null"
-        ""     | ""    | true    || "both parameters are empty"
+        ""     | ""    | true     || "both parameters are empty"
         "str1" | "str" | false    || "length of the parameters are not equal"
     }
 

@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 public class TopKFrequent {
+
+    // Time:    O(n)
+    // Space:   O(n)
     public int[] topKFrequent(int[] nums, int k) {
         if (nums == null || k < 1) {
             throw new IllegalArgumentException();

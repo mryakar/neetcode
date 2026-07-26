@@ -3,6 +3,9 @@ package me.yakar.neetcode;
 import java.util.*;
 
 public class GroupAnagrams {
+
+    // Time:    O(n)
+    // Space:   O(n)
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null) {
             throw new NullPointerException();

@@ -1,3 +1,4 @@
 rootProject.name = 'neetcode'
 
 include 'arrays-and-hashing'
+include 'two-pointers'

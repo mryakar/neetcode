@@ -4,7 +4,7 @@ import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
 
-class TwoSum2Specification extends Specification {
+class TwoSum2InputArrayIsSortedSpecification extends Specification {
 
     private static final int RUNS = 200
 

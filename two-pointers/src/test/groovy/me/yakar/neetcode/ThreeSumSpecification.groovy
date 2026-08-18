@@ -12,7 +12,7 @@ class ThreeSumSpecification extends Specification {
     def solution = new ThreeSum()
 
     @Shared
-    Random random = new Random(42L)
+    def random = new Random(42L)
 
     def "should return #expected for #scenario"() {
         expect:
